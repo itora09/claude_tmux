@@ -5,6 +5,7 @@ claude code向けのtmuxを利用したバイブコーディングサンプル
 * [Claude-Code-Communication](https://github.com/nishimoto265/Claude-Code-Communication)を編集して作成を行っています。
 
 ## エージェント構成
+```
 📊 PRESIDENT セッション (1ペイン)
 └── PRESIDENT: プロジェクト統括責任者
 
@@ -13,6 +14,7 @@ claude code向けのtmuxを利用したバイブコーディングサンプル
 ├── worker1: 実行担当者A
 ├── worker2: 実行担当者B
 └── worker3: 実行担当者C
+```
 
 ## 使い方
 他のプロジェクトで利用する場合は「.claude/agent-send.sh」「.claude/claude-tmux.sh」をコピーしenvを設定すれば動きます。  
