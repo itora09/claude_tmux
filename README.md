@@ -7,7 +7,7 @@ claude code向けのtmuxを利用したバイブコーディングサンプル
 ## エージェント構成
 ```
 📊 PRESIDENT セッション (1ペイン)
-└── PRESIDENT: プロジェクト統括責任者
+└── president: プロジェクト統括責任者
 
 📊 multiagent セッション (4ペイン)  
 ├── boss1: チームリーダー
